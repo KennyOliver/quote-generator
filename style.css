@@ -1,12 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+html {
+  height: 100%;
+}
+
 body {
-  display: flex;
-  justify-content: center;
+  background: beige;
+  background: radial-gradient(circle, beige 50%, rgba(187,187,136,1) 100%);
+  margin: 0 auto;
+  padding-top: 50%;
+  padding-bottom: 50%;
+  text-align: center;
+}
+
+.title {
+  font-family: 'Pacifico', cursive;
 }
 
 .container {
-  text-align: center;
 }
 #quote-text {
   display: inline-block;
   font-style: italic;
+}
+#quote-text, #quote-author {
+  font-family: 'Shadows Into Light', cursive;
 }

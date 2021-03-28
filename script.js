@@ -1,5 +1,5 @@
 let quoteText = document.getElementById("quote-text");
-let authorText = document.getElementById("author-text");
+let authorText = document.getElementById("quote-author");
 
 function getQuote() {
     let url = 'https://type.fit/api/quotes';
@@ -16,7 +16,7 @@ function getQuote() {
         console.log(data[random_index].text);
         console.log(data[random_index].author);
         
-        quoteText.innerHTML = `\"${data[random_index].text}\"`;
+        quoteText.innerHTML = `"${data[random_index].text}"`;
         authorText.innerHTML = `${data[random_index].author}`;
       });
 }
