@@ -7,7 +7,7 @@
 
 [![repl](https://replit.com/badge/github/KennyOliver/quote-generator)](https://replit.com/@KennyOliver/quote-generator)
 
-**Generate quotes via an API.**
+**Generate quotes via an API**
 
 ---
 Kenny Oliver ©2021
