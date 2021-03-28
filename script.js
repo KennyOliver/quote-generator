@@ -1,5 +1,9 @@
+let quoteText = document.getElementById("quote-text");
+let authorText = document.getElementById("author-text");
+
 function getQuote() {
     let url = 'https://type.fit/api/quotes';
+    
     fetch(url)
       .then(response => response.json())
       .then(data => {
@@ -12,9 +16,10 @@ function getQuote() {
         console.log(data[random_index].text);
         console.log(data[random_index].author);
         
-        document.write(data[random_index].text);
-        document.write(data[random_index].author);
+        quoteText.innerHTML = `\"${data[random_index].text}\"`;
+        authorText.innerHTML = `${data[random_index].author}`;
       });
 }
 
 getQuote();
+setInterval(getQuote, 10000);

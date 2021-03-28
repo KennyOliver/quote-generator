@@ -1,0 +1,12 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  text-align: center;
+}
+#quote-text {
+  display: inline-block;
+  font-style: italic;
+}
