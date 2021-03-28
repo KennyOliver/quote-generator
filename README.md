@@ -9,5 +9,7 @@
 
 **Generate quotes via an API**
 
+[![GitHub Pages](https://img.shields.io/badge/See%20It%20In%20Action-252525?style=for-the-badge&logo=safari&logoColor=white&link=https://kennyoliver.github.io/quote-generator)](https://kennyoliver.github.io/quote-generator)
+
 ---
 Kenny Oliver ©2021
